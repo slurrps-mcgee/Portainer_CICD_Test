@@ -2,7 +2,7 @@ version: '3.9'
 
 services:
   web:
-    image: kennyl777/hello-ci-cd:${{ VERSION }}
+    image: kennyl777/hello-ci-cd:${VERSION}
     ports:
       - "80:3000"
     restart: always
