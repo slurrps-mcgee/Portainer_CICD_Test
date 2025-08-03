@@ -1,0 +1,23 @@
+{
+  "name": "portainer_cicd_test",
+  "version": "1.0.0",
+  "description": "test project for ci/cd pipeline",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slurrps-mcgee/Portainer_CICD_Test.git"
+  },
+  "author": "Kenneth Lamb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/slurrps-mcgee/Portainer_CICD_Test/issues"
+  },
+  "homepage": "https://github.com/slurrps-mcgee/Portainer_CICD_Test#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
