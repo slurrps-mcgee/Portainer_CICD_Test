@@ -3,7 +3,7 @@ const app = express();
 const PORT = 3000;
 
 app.get('/', (_req, res) => {
-  res.send('<h1>Hello from GitHub CI/CD via Portainer Yo! This is testing an update 🚀</h1>');
+  res.send('<h1>Hello from GitHub CI/CD via Portainer Yo! This is testing an update version control 🚀</h1>');
 });
 
 app.listen(PORT, () => {
