@@ -29,7 +29,7 @@ jobs:
       with:
         context: .
         push: true
-        tags: kennyl777/hello-ci-cd:${{ env.VERSION }}
+        tags: ${{ secrets.DOCKER_USERNAME }}/hello-ci-cd:${{ env.VERSION }}
         
     - name: Trigger Portainer Webhook
       run: curl -X POST ${{ secrets.PORTAINER_WEBHOOK_URL }}
